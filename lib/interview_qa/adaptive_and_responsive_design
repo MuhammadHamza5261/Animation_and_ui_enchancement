@@ -1,0 +1,25 @@
+✅ 1. Responsive Design – Har Screen ke saath Behave Kare
+🔹 Definition:
+Responsive Design screen size change hone par automatically adjust ho jata hai.
+Same layout har device pe hota hai, bas wo stretch ya shrink ho jata hai.
+
+MediaQuery.of(context).size.width
+LayoutBuilder
+Flexible / Expanded
+
+
+✅ 2. Adaptive Design – Har Screen ke liye Alag Layout Banata Hai
+🔹 Definition:
+Adaptive Design device detect karta hai aur uske liye custom layout use karta hai.
+Har screen size ya platform ke liye alag UI banate hain.
+
+
+if (Platform.isIOS) ...
+if (MediaQuery.of(context).size.width < 600) ... // show mobile UI
+
+
+🎯 Interview Mein Bolne Ka Tareeqa:
+Sir, responsive design mein UI apne aap screen ke according adjust hota hai using widgets like LayoutBuilder or MediaQuery.
+Jabke adaptive design mein hum har screen size ke liye alag layout banate hain. Ye usually if-else logic ke through hota hai.
+
+Flutter mein hum responsive design zyada use karte hain for flexibility, lekin adaptive bhi zarurat par use hota hai, jaise tablet aur mobile ke liye alag UIs.

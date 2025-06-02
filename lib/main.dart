@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie_proj/animated_list/animated_list.dart';
 import 'package:lottie_proj/clippath_widget/clip_path.dart';
 import 'package:lottie_proj/clippath_widget/triangle_clipper.dart';
@@ -21,9 +22,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: S(),
+    return ScreenUtilInit(
+      designSize: Size(390, 800),
+      minTextAdapt: true,
+      splitScreenMode: true ,
+      child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: S(),
+      ),
     );
   }
 }
