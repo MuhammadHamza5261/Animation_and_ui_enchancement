@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
 class PlatformAdaptive extends StatefulWidget {
   const PlatformAdaptive({super.key});
 

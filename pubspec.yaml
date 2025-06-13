@@ -39,6 +39,7 @@ dependencies:
   shimmer: ^3.0.0
   flutter_screenutil: ^5.9.3
   sizer:
+  font_awesome_flutter: ^10.8.0
 
 dev_dependencies:
   flutter_test:

@@ -16,7 +16,7 @@ class _AdaptivePlatformState extends State<AdaptivePlatform> {
      if(Platform.isAndroid){
        return const Scaffold(
          body: Center(
-           child: Text("This is andriod side"),
+           child: Text("This is android side"),
          ),
        );
      }
@@ -34,7 +34,7 @@ class _AdaptivePlatformState extends State<AdaptivePlatform> {
            title: const Text("Other Platform"),
          ),
          body: const Center(
-           child: Text("This is not andriod and Ios"),
+           child: Text("This is not android and Ios"),
          ),
        );
      }
