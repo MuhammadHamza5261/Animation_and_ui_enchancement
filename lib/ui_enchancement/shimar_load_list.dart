@@ -70,7 +70,9 @@ class _ShimarListScreenState extends State<ShimarListScreen> {
           itemCount: itemsList.length,
           itemBuilder: (context, index) {
             return ListTile(
-              leading: CircleAvatar(child: Text(itemsList[index][0])),
+              leading: CircleAvatar(
+                  child: Text(itemsList[index][0]),
+              ),
               title: Text(itemsList[index]),
               subtitle: Text(itemsList[index]),
             );

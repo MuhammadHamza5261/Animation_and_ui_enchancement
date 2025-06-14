@@ -1,0 +1,18 @@
+✍️ Typography in Flutter
+
+🔤 What is Typography?
+Typography refers to how text looks and behaves in your app. It includes font style,
+ size, weight, color, letter spacing, and alignment. Good typography improves
+  readability, accessibility, and visual appeal.
+
+
+ | Concept               | Description                                 | Example                           |
+ | --------------------- | ------------------------------------------- | --------------------------------- |
+ | **Text Widget**       | The basic widget to display text            | `Text("Hello World")`             |
+ | **TextStyle**         | Controls font size, color, weight, etc.     | `TextStyle(fontSize: 20)`         |
+ | **Font Weight**       | Thickness of text                           | `FontWeight.bold`                 |
+ | **Font Family**       | Type of font (Roboto, Montserrat, etc.)     | `fontFamily: 'Roboto'`            |
+ | **Google Fonts**      | Custom fonts via the `google_fonts` package | `GoogleFonts.lato(...)`           |
+ | **Theme Typography**  | Use global theme styles for consistency     | `Theme.of(context).textTheme`     |
+ | **Overflow Handling** | Manage text overflow                        | `overflow: TextOverflow.ellipsis` |
+ | **TextAlign**         | Align text left, right, center, justify     | `TextAlign.center`                |

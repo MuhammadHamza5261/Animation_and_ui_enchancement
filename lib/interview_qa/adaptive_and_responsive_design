@@ -18,7 +18,7 @@ if (Platform.isIOS) ...
 if (MediaQuery.of(context).size.width < 600) ... // show mobile UI
 
 
-🎯 Interview Mein Bolne Ka Tareeqa:
+🎯 Interview Mein Bolne Ka Tareeqa
 Sir, responsive design mein UI apne aap screen ke according adjust hota hai using widgets like LayoutBuilder or MediaQuery.
 Jabke adaptive design mein hum har screen size ke liye alag layout banate hain. Ye usually if-else logic ke through hota hai.
 
